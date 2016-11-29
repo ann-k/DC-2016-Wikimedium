@@ -15,6 +15,7 @@
 .green {
   background-image: linear-gradient(to bottom, #64f364 2%, #2bd42b 7%, #01a401 95%, #01a401 100%, #006900 100%);
   border-color: #00C000;
+  color: white;
   height: auto;
   width: auto;
 }
@@ -35,7 +36,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1180px) and (min-width: 911px){
   .small {
     width: 180px;
     height: 30px;
@@ -51,14 +52,18 @@
   }
 }
 
+/*@media screen and (max-width: 910px) {
+  .small {
+    width: 250px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 17px;
+  }
 
-
-
-
-
-
-
-
-
-
-  .
+  .large {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+  }
+}*/
